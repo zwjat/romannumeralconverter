@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Numeral Converter - Convert Numbers to Roman Numerals & Vice Versa | Free Online Tool</title>
+    <meta name="description" content="Free Roman numeral converter tool. Convert numbers to Roman numerals (1-3999) and Roman numerals to numbers instantly. Learn Roman numeral rules, history, and examples. Perfect for students, historians, and designers.">
+    <meta name="keywords" content="roman numeral converter, roman numerals to numbers, numbers to roman numerals, roman numeral calculator, roman numeral translator, ancient roman numbers">
+    <meta name="author" content="Roman Numeral Tools">
+    <meta name="robots" content="index, follow">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Roman Numeral Converter - Free Online Tool">
+    <meta property="og:description" content="Convert numbers to Roman numerals and vice versa with our free online tool. Learn the history and rules of Roman numerals.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://romannumeralconverter.org">
+    <meta property="og:image" content="https://romannumeralconverter.org/image256.png">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Roman Numeral Converter - Free Online Tool">
+    <meta name="twitter:description" content="Convert numbers to Roman numerals instantly. Free online converter with examples and educational content.">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Roman Numeral Converter",
+        "description": "Free online tool to convert numbers to Roman numerals and Roman numerals to numbers",
+        "url": "https://romannumeralconverter.org",
+        "category": "Educational Tool",
+        "operatingSystem": "Any",
+        "applicationCategory": "UtilitiesApplication",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+    
+    <style>* {margin: 0;padding: 0;box-sizing: border-box;}body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;line-height: 1.6;color: #333;background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);min-height: 100vh;}.container {max-width: 1200px;margin: 0 auto;padding: 20px;}header {text-align: center;color: white;margin-bottom: 30px;}h1>a{text-decoration:none;color:#FFF}h1 {font-size: 2.5rem;margin-bottom: 10px;text-shadow: 2px 2px 4px rgba(0,0,0,0.3);}.subtitle {font-size: 1.2rem;opacity: 0.9;margin-bottom: 20px;}.converter-section {background: white;border-radius: 15px;padding: 30px;box-shadow: 0 10px 30px rgba(0,0,0,0.2);margin-bottom: 40px;}.converter-grid {display: grid;grid-template-columns: 1fr 1fr;gap: 30px;margin-bottom: 30px;}.converter-box {background: #f8f9fa;padding: 25px;border-radius: 10px;border: 2px solid #e9ecef;transition: all 0.3s ease;}.converter-box:hover {border-color: #667eea;transform: translateY(-2px);}.converter-box h3 {color: #495057;margin-bottom: 15px;font-size: 1.3rem;}input[type="text"], input[type="number"] {width: 100%;padding: 12px;font-size: 1.1rem;border: 2px solid #ced4da;border-radius: 8px;margin-bottom: 15px;transition: border-color 0.3s ease;}input:focus {outline: none;border-color: #667eea;box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);}.convert-btn {background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);color: white;border: none;padding: 12px 24px;font-size: 1rem;border-radius: 8px;cursor: pointer;transition: all 0.3s ease;width: 100%;}.convert-btn:hover {transform: translateY(-2px);box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);}.result {background: #e8f5e8;border: 2px solid #28a745;padding: 15px;border-radius: 8px;margin-top: 15px;font-size: 1.2rem;font-weight: bold;text-align: center;color: #155724;}.error {background: #f8d7da;border: 2px solid #dc3545;color: #721c24;}.examples {background: #fff3cd;border: 2px solid #ffc107;padding: 20px;border-radius: 10px;margin-top: 20px;}.examples h4 {color: #856404;margin-bottom: 10px;}.example-grid {display: grid;grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));gap: 10px;}.example-item {background: white;padding: 8px;border-radius: 5px;text-align: center;font-weight: bold;}.content-section {background: white;border-radius: 15px;padding: 40px;box-shadow: 0 5px 20px rgba(0,0,0,0.1);margin-bottom: 30px;}.content-section h2 {color: #2c3e50;margin-bottom: 20px;font-size: 2rem;border-bottom: 3px solid #667eea;padding-bottom: 10px;}.content-section h3 {color: #34495e;margin: 25px 0 15px 0;font-size: 1.4rem;}.content-section p {margin-bottom: 15px;font-size: 1.1rem;line-height: 1.7;}.highlight-box {background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);color: white;padding: 20px;border-radius: 10px;margin: 20px 0;}.rules-list {background: #f8f9fa;padding: 20px;border-radius: 10px;border-left: 5px solid #667eea;}.rules-list ol {padding-left: 20px;}.rules-list li {margin-bottom: 10px;font-size: 1.1rem;}.symbol-table {width: 100%;border-collapse: collapse;margin: 20px 0;background: white;border-radius: 10px;overflow: hidden;box-shadow: 0 0 20px rgba(0,0,0,0.1);}.symbol-table th, .symbol-table td {padding: 15px;text-align: center;border-bottom: 1px solid #e9ecef;}.symbol-table th {background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);color: white;font-size: 1.2rem;}.symbol-table tbody tr:hover {background: #f8f9fa;}.faq-section {background: white;border-radius: 15px;padding: 40px;box-shadow: 0 5px 20px rgba(0,0,0,0.1);}.faq-item {margin-bottom: 25px;border-bottom: 1px solid #e9ecef;padding-bottom: 20px;}.faq-question {font-size: 1.2rem;font-weight: bold;color: #2c3e50;margin-bottom: 10px;}.faq-answer {font-size: 1.1rem;line-height: 1.6;color: #495057;}@media (max-width: 768px) {.converter-grid {grid-template-columns: 1fr;gap: 20px;}h1 {font-size: 2rem;}.container {padding: 15px;}.converter-section, .content-section, .faq-section {padding: 20px;}}</style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><a href="/">Roman Numeral Converter</a></h1>
+            <p class="subtitle">Convert Numbers to Roman Numerals and Vice Versa - Free Online Tool</p>
+        </header>
+
+        <section class="converter-section">
+            <div class="converter-grid">
+                <div class="converter-box">
+                    <h3>Number to Roman Numeral</h3>
+                    <input type="number" id="numberInput" placeholder="Enter a number (1-3999)" min="1" max="3999">
+                    <button class="convert-btn" onclick="convertToRoman()">Convert to Roman</button>
+                    <div id="romanResult" class="result" style="display: none;"></div>
+                </div>
+                
+                <div class="converter-box">
+                    <h3>Roman Numeral to Number</h3>
+                    <input type="text" id="romanInput" placeholder="Enter Roman numerals (e.g., XIV)" style="text-transform: uppercase;">
+                    <button class="convert-btn" onclick="convertToNumber()">Convert to Number</button>
+                    <div id="numberResult" class="result" style="display: none;"></div>
+                </div>
+            </div>
+            
+            <div class="examples">
+                <h4>Quick Examples:</h4>
+                <div class="example-grid">
+                    <div class="example-item">1 = I</div>
+                    <div class="example-item">5 = V</div>
+                    <div class="example-item">10 = X</div>
+                    <div class="example-item">50 = L</div>
+                    <div class="example-item">100 = C</div>
+                    <div class="example-item">500 = D</div>
+                    <div class="example-item">1000 = M</div>
+                    <div class="example-item">2024 = MMXXIV</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>About Our Roman Numeral Converter Tool</h2>
+            
+            <p>Welcome to the most comprehensive and user-friendly <strong>Roman numeral converter</strong> on the web! Our free online tool allows you to effortlessly convert any number between 1 and 3,999 to Roman numerals and vice versa. Whether you're a student learning about ancient numbering systems, a historian researching classical texts, a designer creating elegant typography, or simply curious about Roman numerals, our converter provides instant, accurate results.</p>
+
+            <div class="highlight-box">
+                <h3>🚀 Why Choose Our Roman Numeral Converter?</h3>
+                <p>✅ <strong>Lightning Fast:</strong> Instant conversions with real-time results<br>
+                ✅ <strong>100% Accurate:</strong> Based on authentic Roman numeral rules<br>
+                ✅ <strong>User-Friendly:</strong> Clean, intuitive interface works on all devices<br>
+                ✅ <strong>Educational:</strong> Learn while you convert with comprehensive guides<br>
+                ✅ <strong>Completely Free:</strong> No registration, no ads, no limitations</p>
+            </div>
+
+            <h3>How to Use Our Roman Numeral Converter</h3>
+            <p>Using our Roman numeral converter is incredibly simple and straightforward:</p>
+            
+            <div class="rules-list">
+                <ol>
+                    <li><strong>Choose Your Conversion Type:</strong> Select whether you want to convert a regular number to Roman numerals or Roman numerals to a regular number.</li>
+                    <li><strong>Enter Your Input:</strong> Type your number (1-3999) or Roman numeral in the designated field.</li>
+                    <li><strong>Click Convert:</strong> Press the convert button to see your instant result.</li>
+                    <li><strong>Copy and Use:</strong> Your converted result appears immediately - ready to copy and use wherever needed.</li>
+                </ol>
+            </div>
+
+            <h3>Understanding Roman Numerals: A Complete Guide</h3>
+            
+            <p>Roman numerals are a numeral system that originated in ancient Rome and remained the usual way of writing numbers throughout Europe well into the Late Middle Ages. Today, Roman numerals are still used in many contexts, including clock faces, book chapters, movie sequels, sporting events (like the Super Bowl), and architectural elements.</p>
+
+            <h4>The Seven Basic Roman Numeral Symbols</h4>
+            <table class="symbol-table">
+                <thead>
+                    <tr>
+                        <th>Roman Numeral</th>
+                        <th>Arabic Number</th>
+                        <th>Memory Aid</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>I</strong></td><td>1</td><td>One finger</td></tr>
+                    <tr><td><strong>V</strong></td><td>5</td><td>Hand with thumb and finger forming V</td></tr>
+                    <tr><td><strong>X</strong></td><td>10</td><td>Two hands crossed</td></tr>
+                    <tr><td><strong>L</strong></td><td>50</td><td>Half of C (100)</td></tr>
+                    <tr><td><strong>C</strong></td><td>100</td><td>First letter of "Centum" (hundred)</td></tr>
+                    <tr><td><strong>D</strong></td><td>500</td><td>Half of M (1000)</td></tr>
+                    <tr><td><strong>M</strong></td><td>1000</td><td>First letter of "Mille" (thousand)</td></tr>
+                </tbody>
+            </table>
+
+            <h3>Essential Roman Numeral Rules</h3>
+            <div class="rules-list">
+                <ol>
+                    <li><strong>Addition Rule:</strong> When a smaller numeral appears after a larger one, add the values (VI = 5 + 1 = 6)</li>
+                    <li><strong>Subtraction Rule:</strong> When a smaller numeral appears before a larger one, subtract the smaller from the larger (IV = 5 - 1 = 4)</li>
+                    <li><strong>Repetition Rule:</strong> A symbol can be repeated up to three times to add value (III = 3, XXX = 30)</li>
+                    <li><strong>Subtraction Limitations:</strong> Only I, X, and C can be used as subtractive numerals</li>
+                    <li><strong>Subtractive Positions:</strong> I can only precede V and X; X can only precede L and C; C can only precede D and M</li>
+                </ol>
+            </div>
+
+            <h3>Fascinating History of Roman Numerals</h3>
+            <p>The Roman numeral system has a rich history spanning over 2,000 years. Originally developed by the ancient Romans around the 7th century BC, this system was used throughout the Roman Empire for trade, architecture, and record-keeping. Unlike our modern decimal system, Roman numerals were perfectly suited for addition and subtraction, which were the primary mathematical operations needed for commerce and engineering in ancient times.</p>
+
+            <p>Interestingly, the Romans initially didn't have a symbol for zero, as the concept of zero as a number was not yet developed in European mathematics. This limitation, along with the complexity of performing multiplication and division with Roman numerals, eventually led to the adoption of the Arabic numeral system (0-9) in Europe during the Middle Ages.</p>
+
+            <h3>Modern Applications of Roman Numerals</h3>
+            <p>Despite being ancient, Roman numerals continue to play important roles in modern society:</p>
+            
+            <ul style="list-style: none; padding-left: 0;">
+                <li>🏛️ <strong>Architecture:</strong> Building cornerstones, monuments, and inscriptions</li>
+                <li>⏰ <strong>Timekeeping:</strong> Clock faces and watch designs</li>
+                <li>📚 <strong>Publishing:</strong> Book chapters, volume numbers, and prefaces</li>
+                <li>🎬 <strong>Entertainment:</strong> Movie sequels, TV show seasons, and video games</li>
+                <li>🏆 <strong>Sports:</strong> Super Bowl numbers, Olympics, and championship events</li>
+                <li>👑 <strong>Formal Documents:</strong> Legal documents, academic papers, and royal titles</li>
+                <li>🎨 <strong>Design:</strong> Logos, tattoos, and decorative elements</li>
+            </ul>
+
+            <h3>Tips for Remembering Roman Numerals</h3>
+            <p>Learning Roman numerals becomes easier with these memory techniques:</p>
+            
+            <div class="highlight-box">
+                <p><strong>Memory Phrase:</strong> "I Value Xylophones Like Cows Dig Milk"<br>
+                (I=1, V=5, X=10, L=50, C=100, D=500, M=1000)</p>
+            </div>
+
+            <p>Practice with common numbers you encounter daily, such as years, ages, or addresses. Start with simple numbers and gradually work your way up to more complex combinations.</p>
+
+            <h3>Common Mistakes to Avoid</h3>
+            <ul>
+                <li>Never repeat V, L, or D (these represent 5, 50, 500)</li>
+                <li>Don't use more than three consecutive identical symbols</li>
+                <li>Remember that IIII is incorrect - use IV for 4</li>
+                <li>Be careful with subtraction - IL (49) is wrong, use XLIX instead</li>
+                <li>Always write larger numerals before smaller ones, except in subtraction cases</li>
+            </ul>
+        </section>
+
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">What is the highest number you can represent in Roman numerals?</div>
+                <div class="faq-answer">Traditionally, Roman numerals can represent numbers up to 3,999 (MMMCMXCIX) using the standard seven symbols. For larger numbers, ancient Romans used various methods including overlines to multiply by 1,000.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Why don't Roman numerals have a symbol for zero?</div>
+                <div class="faq-answer">The concept of zero as a number wasn't developed in Roman mathematics. Romans used words like "nihil" (nothing) when needed, but didn't require a numerical symbol for zero in their counting system.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Are there different styles of Roman numerals?</div>
+                <div class="faq-answer">Yes! You'll see variations like IIII instead of IV on some clock faces (called "watchmaker's four"), and different artistic interpretations in typography and design.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">How accurate is this Roman numeral converter?</div>
+                <div class="faq-answer">Our converter is 100% accurate and follows the traditional rules of Roman numeral formation. It's based on authentic historical standards and has been thoroughly tested.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Can I use this tool for homework or academic projects?</div>
+                <div class="faq-answer">Absolutely! Our tool is perfect for educational purposes. However, we encourage you to learn the rules and understand the conversions rather than just copying results.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Do you store my conversion history?</div>
+                <div class="faq-answer">No, we don't store any personal data or conversion history. Each conversion is processed locally in your browser for complete privacy.</div>
+            </div>
+        </section>
+		<div style="text-align: center; margin-top: 20px; padding:10px 0;background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 15px; color: white;"><p>©2025 romannumeralconverter.org | <a href="/terms_privacy.html" target="_blank" style="text-decoration: none;">Terms and Privacy Policy</a></p>
+		</div>
+    </div>
+
+    <script>function convertToRoman(){const e=parseInt(document.getElementById("numberInput").value),n=document.getElementById("romanResult");if(isNaN(e)||e<1||e>3999)return n.className="result error",n.textContent="Please enter a number between 1 and 3999",void(n.style.display="block");const t=numberToRoman(e);n.className="result",n.innerHTML=`<strong>${e}</strong> in Roman numerals is: <strong>${t}</strong>`,n.style.display="block"}function convertToNumber(){const e=document.getElementById("romanInput").value.toUpperCase().trim(),n=document.getElementById("numberResult");if(!e)return n.className="result error",n.textContent="Please enter a Roman numeral",void(n.style.display="block");if(!isValidRoman(e))return n.className="result error",n.textContent="Please enter a valid Roman numeral",void(n.style.display="block");const t=romanToNumber(e);n.className="result",n.innerHTML=`<strong>${e}</strong> in Arabic numerals is: <strong>${t}</strong>`,n.style.display="block"}function numberToRoman(e){const n=[1e3,900,500,400,100,90,50,40,10,9,5,4,1],t=["M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"];let r="";for(let o=0;o<n.length;o++)for(;e>=n[o];)r+=t[o],e-=n[o];return r}function romanToNumber(e){const n={I:1,V:5,X:10,L:50,C:100,D:500,M:1e3};let t=0,r=0;for(let o=e.length-1;o>=0;o--){const s=n[e[o]];s<r?t-=s:t+=s,r=s}return t}function isValidRoman(e){return/^M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$/.test(e)}document.getElementById("numberInput").addEventListener("keypress",(function(e){"Enter"===e.key&&convertToRoman()})),document.getElementById("romanInput").addEventListener("keypress",(function(e){"Enter"===e.key&&convertToNumber()})),document.getElementById("romanInput").addEventListener("input",(function(e){e.target.value=e.target.value.toUpperCase()}));</script>
+</body>
+</html>
