@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /*?*q=
+Disallow: /privacy-policy.html
+Disallow: /terms-of-use.html
