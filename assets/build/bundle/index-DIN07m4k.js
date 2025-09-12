@@ -1,0 +1,1 @@
+import{r as i,a as r}from"./listeners-D-clRLiV.js";import{r as t}from"./copy-CmZDmUMK.js";import{s,p as a,i as p}from"./options-BGmkppSu.js";import"./actions-CIbmDxLs.js";import"./_commonjsHelpers-Cpj98o6Y.js";t();i(p,a,s,document.body.getAttribute("data-locale"));r();
